@@ -46,7 +46,7 @@ const Signin = () => {
     <div className="auth-outer">
       {loading && <div className="box-glow-loader"></div>}
       <div className={`auth-container ${loading ? 'blur' : ''}`}>
-        <h2>👋 Welcome back!</h2>
+        <h2>👋 Welcome Ram</h2>
         <form onSubmit={handleSignin}>
           <input
             type="email"
